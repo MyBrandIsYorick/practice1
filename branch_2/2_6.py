@@ -2,8 +2,8 @@ way = float(input("Введите, сколько вы хотите проеха
 waste = float(input("Введите расход машины на 100 км - "))
 fuel = float(input("Введите, количество топлива в баке - "))
 
-kpd=way/100*waste
-if (fuel-kpd>=0):
+kpd = way / 100 * waste
+if fuel - kpd >= 0:
     print("Вы успешно проедете путь, который хотели")
 else:
-    print(f"Вы не доедете - вам не хватит {abs(fuel-kpd)} литров топлива")
+    print(f"Вы не доедете - вам не хватит {abs(fuel - kpd)} литров топлива")
